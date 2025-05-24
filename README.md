@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 <div align="center">
   <br />
     <a href="" target="_blank">
@@ -7,13 +5,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
     </a>
   <br />
 
-## Getting Started
-
-  <div>
-    <img src="https://img.shields.io/badge/-Next.JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=black" alt="next.js" />
-    <img src="https://img.shields.io/badge/-Vapi-black?style=for-the-badge&logoColor=white&logo=vapi.com&color=green" alt="next.js" />
-    <img src="https://img.shields.io/badge/-Tailwind-00BCFF?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  </div>
   <h3 align="center">SaaS App - LMS with Next.js, Supabase & Payments</h3>
 </div>
 
@@ -44,51 +35,53 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 - **[Vapi](https://jsm.dev/converso-vapi)** – <span class="text-orange-600">Voice AI platform for building real-time, multilingual voice agents with speech-to-text and TTS support.</span>
 
-## <a name="features">🔋 Features</a>
+## 🔋 Features
 
-- 👉 **AI Voice Agents**: Take tutoring sessions with voiced AIs specializing in the topics you want to get better at.
-- 👉 **Authentication**: Secure user sign-up and sign-in with Clerk; Google authentication and many more.
-- 👉 **Billing & Subscriptions**: Easily manage plans, upgrades, and payment details.
-- 👉 **Bookmarks and Session History**: Let users organise their learning by bookmarking tutors and accessing previous sessions.
-- 👉 **Code Reusability**: Leverage reusable components and a modular codebase for efficient development.
-- 👉 **Create a Tutor**: Create your own AI tutors, choosing a subject, topic, and style of conversation.
-- 👉 **Cross-Device Compatibility**: Fully responsive design that works seamlessly across all devices.
-- 👉 **Database Integration**: Uses Supabase for real-time data handling and storage needs.
-- 👉 **Modern UI/UX**: Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
-- 👉 **Scalable Tech Stack**: Built with Next.js for a fast, production-ready web application that scales seamlessly.
-- 👉 **Search Functionality**: Find tutors quickly with robust filters and search bar.
+- **🎙️ AI Voice Agents**  
+  Take tutoring sessions with voiced AIs specializing in the topics you want to get better at.
+
+- **🔐 Authentication**  
+  Secure user sign-up and sign-in with Clerk. Google and other providers supported.
+
+- **💳 Billing & Subscriptions**  
+  Easily manage plans, upgrades, and payment details.
+
+- **🔖 Bookmarks & Session History**  
+  Organize your learning by bookmarking tutors and accessing previous sessions.
+
+- **♻️ Code Reusability**  
+  Leverage reusable components and a modular codebase for efficient development.
+
+- **🧠 Create a Tutor**  
+  Create your own AI tutors by choosing a subject, topic, and conversation style.
+
+- **📱 Cross-Device Compatibility**  
+  Fully responsive design that works seamlessly across all devices.
+
+- **💾 Database Integration**  
+  Uses Supabase for real-time data handling and storage needs.
+
+- **🎨 Modern UI/UX**  
+  Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
+
+- **🚀 Scalable Tech Stack**  
+  Built with Next.js for a fast, production-ready web application that scales seamlessly.
+
+- **🔍 Search Functionality**  
+  Find tutors quickly using robust filters and search features.
+
+---
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
-Follow these steps to set up the project locally on your machine.
-**Prerequisites**
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-  **Cloning the Repository**
+**Cloning the Repository**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 git clone https://github.com/birhanu-dejen/saas-next
-cd saas-app
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-**Installation**
-Install the project dependencies using npm:
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-```bash
+cd saas-next
 npm install
+npm run dev
+
 ```
 
 **Set Up Environment Variables**
@@ -110,6 +103,4 @@ NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
 ```
 
-```bash
-npm run dev
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
